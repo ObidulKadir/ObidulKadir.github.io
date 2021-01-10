@@ -1,0 +1,47 @@
+body{
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'Inconsolata', monospace;
+}
+
+h6{
+    font-size: 20px;
+}
+p {
+    font-size: 15px;
+}
+
+.navbar-nav li a{
+    /* font-size: 10px; */
+    color: white;
+    float: right;
+    padding: 6px;
+    /* border-bottom: 1px solid rgb(149, 142, 142); */
+    /* border-radius: 5px; */
+    margin: 3px ;
+    width: 60px;
+    text-align: center;
+}
+.contentSection{
+    border: 1px solid black;
+    padding: 5px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card img{
+    height: 200px;
+}
+
+.content{
+    width: 60%;
+    float: left;
+}
+
+.sidecontent{
+    width: 40%;
+    float: right;
+    padding: 5px;
+    border: 1px solid black;
+}
+
